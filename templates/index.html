@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My First LEMP Stack — Week 2</title>
+    <style>
+      body {
+        max-width: 800px;
+	margin: 40px auto;
+	padding: 0 20px;
+	font-family: sans-serif;
+	line-height: 1.6;
+	background: #f4f4f6;
+	color: #203040;
+      }
+      h1, h2 { color: #2c3e50; }
+      pre { background: #fff; padding: 16px; overflow-x: auto }
+    </style> 
+</head>
+<body>
+    <h1>Week 2: Python web app</h1>
+    <p>The app uses a Python Flask backend connected to a MariaDB database to persistently increment and display the page visit count, deployed via Nginx and Gunicorn.</p>
+    <p>Page visits: {{ visits }}</p>
+    <p><a href="/">Back to the front page</a></p>
+    <p><a href="https://github.com/tviitala25/week2">GitHub repository</a></p>
+</body>
+</html>
